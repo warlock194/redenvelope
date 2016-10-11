@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_title_name">RedEnvelope</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="accessibility_description">WeChat or QQ start grab a red envelope service and support。</string>
+	<string name="notify_settings">notification setting</string>
+	<string name="tips">Open Accessibility</string>
+	<string name="wechat_mode_title">Grab a red envelope model</string>
+	<string name="wx_mode_0">Automatic grab</string>
+    <string name="wx_mode_1">Rob single chat red envelopes, group chat red envelopes only notice</string>
+    <string name="wx_mode_2">Rob group chat red envelopes, single red envelope only notice</string>
+    <string name="wx_mode_3">Notify the manual rob (titles) prevention</string>
+    <string name="after_open_red_envelope">Open a red envelope</string>
+    <string name="after_open_see">"Look at everyone's luck (only support WeChat 6.3.8 version below)"</string>
+    <string name="after_open_none">Quietly looking at</string>
+
+    <string name="after_get_back_home">return home</string>
+    <string name="after_get_none">Quietly looking at</string>
+    <string name="setting_service_button">setting accessibilityService</string>
+    <string name="setting_help">help</string>
+    <string name="cancel">exit</string>
+    <string name="open_service_button">Open the accessibility services</string>
+    <string name="open_service_title">Need to open the accessibility services</string>
+    
+    <string name="red_envelope_title">Red packet assistant</string>
+    <string name="red_envelope_summary">System will snatch red packets automatically with it turned on。</string>
+    <string name="notify_titile">Notification ringtone</string>
+    <string name="notify_summary">Play sound when get a red packet。</string>
+    <string name="receive_delay_titile">Latency</string>
+    <string name="receive_delay_summary"></string>
+    <string name="auto_answer_titile">Auto-responders</string>
+    <string name="auto_answer_summary"></string>
+    <string name="red_envelope_record_titile">Record</string>
+    <string name="red_envelope_update_titile">Check Update</string>
+    <string name="red_envelope_record_summary">The number and value of red packet you get will be recorded。</string>
+    <string name="prompt">"Tips:
+        \tDon't block messages about red packet,delaying snatching red packets appropriately can prevent your account being frozen."</string>
+    <string name="none">Close</string>
+    <string name="receive_delay_1" translatable="false">0.5s</string>
+    <string name="receive_delay_2" translatable="false">1s</string>
+    <string name="receive_delay_3" translatable="false">2s</string>
+    <string name="receive_delay_random">Random 2-8s</string>
+    <string name="auto_answer_1">I’ m grateful for your red packet!</string>
+    <string name="auto_answer_2">Thank you!</string>
+    <string name="auto_answer_3">Custom reply</string>
+    <string name="red_envelope_notification">Has been to one<xliff:g id="notify_money">%1$.2f</xliff:g>yuan WeChat red envelope</string>
+    <string name="record_title">The cumulative grab a red envelope (yuan)</string>
+    <string name="record_name">red envelope record</string>
+    <string name="record_rab_count">Automatic grab a red envelope<xliff:g id="record_count">%1$d</xliff:g>times</string>
+    <string name="record_luck">Luck</string>
+    <string name="record_speed">Speed</string>
+    <string name="record_sucess_time"><xliff:g id="record_time">%1$d</xliff:g> red packets</string>
+    <string name="record_average_time"><xliff:g id="record_time">%1$.1f</xliff:g> S</string>
+    <string name="save_data_fail">Save the data failure</string>
+    <string name="record_money"><xliff:g id="money">%1$.2f</xliff:g>元</string>
+    <string name="record_all_money_init" translatable="false">0.00</string>
+    <string name="record_rab_count_init">Automatic grab a red envelope 0 times</string>
+    <string name="record_sucess_time_init">0 red packets</string>
+    <string name="record_average_time_init"> 0.0 S</string>
+    <string name="record_all_money"><xliff:g id="money">%1$.2f</xliff:g></string>
+    <string name="week">week</string>
+    <string name="yesterday">yesterday</string>
+    <string name="help_title_1">\t一、Enter the setting auxiliary services, open the red envelopes assistant services, can automatically grab a red envelope, as shown in the figure below：</string>
+    <string name="help_title_4">\t二、Matters needing attention：</string>
+    <string name="help_title"></string>
+    <string name="clear_data">clear data</string>
+	<string name="dilog_exit">exit</string>
+	<string name="notify_sound_title">Sound</string>
+	<string name="notify_sound_summary">To remind when red envelopes</string>
+	<string name="notify_vibrate_title">Vibrate</string>
+	<string name="notify_vibrate_summary">Vivrate when come to red envelope</string>
+	<string name="notify_night_title">Disturb settings</string>
+	<string name="notify_night_summary">"Night 23:00-07:00 silence settings"</string>
+	<string name="red_envelope_notify_summary">Notification Settings when received a red envelope</string>
+	<string name="notify_settings_prompt">"Tips:\n
+	    Notification Settings and grab a red envelope model for the establishment of sound and vibration in the notice, notify the setting of sound and vibration setting determines whether or not notice of a voice or grab a red envelope mode vibration (automatic grab red by default to a red envelope without sound and vibration prompt)</string>
+	<string name="soft_update_title">Update version</string>
+	<string name="soft_update_info">Update to the new version can prevent the grab a red envelope function is invalid, for update current version <xliff:g id="curVersion">%1$s</xliff:g>to<xliff:g id="newVersion">%2$s</xliff:g></string>
+	<string name="soft_update_updatebtn">Update</string>
+	<string name="soft_update_later">Later update</string>
+	<string name="install_apk_error">install apk error</string>
+	<string name="check_update_toast">The current is the latest version</string>
+	<string name="check_new_version">Check the new version</string>
+	<string name="soft_update_cancel">Cancel</string>
+	<string name="update_progress_title">Download the new version!</string>
+	<string name="qq_red_envelope_notification">Has been to one<xliff:g id="notify_money">%1$.2f</xliff:g>yuan QQ red envelope</string>
+	<string name="data_tips_msg">There is no record</string>
+	<string name="data_loading_msg">"Loading records..."</string>
+
+    <string name="mm_video_tran">share</string>
+    <string name="comment_six_6_des">Comment</string>
+    <string name="prompt_other">"Tips:
+        \tDon't block messages about red packet。
+        \tThere is a risk of your account being frozen when you snatch a red pocket too quickly. It is reassuring to set a random delay."</string>
+    <string name="wechat_redpackage_name">one wechat red packet</string>
+    <string name="defined_reply_ok">Ok</string>
+    <string name="defined_reply_cancle">Cancle</string>
+    <string name="defined_reply_toast">Content can not be empty</string>
+    <string name="app_name">WeChat plug-in</string>
+    <string name="network_not_available">Network not Available!</string>
+</resources>

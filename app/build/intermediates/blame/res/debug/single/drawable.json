@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable/back_icon.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable/back_icon.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable/mmvideo_float.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable/mmvideo_float.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable/setting_head.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable/setting_head.xml"
+    }
+]

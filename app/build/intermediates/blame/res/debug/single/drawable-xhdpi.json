@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-xhdpi/hw_actionbar_back_disabled.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-xhdpi/hw_actionbar_back_disabled.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-xhdpi/hw_actionbar_back_normal.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-xhdpi/hw_actionbar_back_normal.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-xhdpi/header_bg_line.9.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-xhdpi/header_bg_line.9.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_launcher.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-xhdpi/settings_ic_wechat.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-xhdpi/settings_ic_wechat.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-xhdpi/hw_actionbar_back_pressed.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-xhdpi/hw_actionbar_back_pressed.png"
+    }
+]

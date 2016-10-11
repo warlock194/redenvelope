@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_title_name">红包助手</string>
+    <string name="action_settings">设置</string>
+	<string name="accessibility_description">启动抢红包服务，支持微信、QQ。</string>
+	<string name="notify_settings">通知设置</string>
+	<string name="tips">设置辅助服务</string>
+	<string name="wechat_mode_title">抢红包模式</string>
+	<string name="wx_mode_0">自动抢</string>
+    <string name="wx_mode_1">抢单聊红包，群聊红包只通知</string>
+    <string name="wx_mode_2">抢群聊红包，单聊红包只通知</string>
+    <string name="wx_mode_3">通知手动抢(防封号)</string>
+    <string name="after_open_red_envelope">拆红包</string>
+    <string name="after_open_see">看看大家的手气(仅支持微信6.3.8版本以下)</string>
+    <string name="after_open_none">静静地看着</string>
+
+    <string name="after_get_back_home">返回桌面</string>
+    <string name="after_get_none">静静地看着</string>
+    <string name="setting_service_button">设置辅助服务</string>
+    <string name="setting_help">帮助</string>
+    <string name="cancel">退出</string>
+    <string name="open_service_button">打开辅助服务</string>
+    <string name="open_service_title">需要打开辅助服务</string>
+    
+    <string name="red_envelope_title">红包助手</string>
+    <string name="red_envelope_summary">开启红包助手后，系统自动帮您抢群红包</string>
+    <string name="notify_titile">声音提醒</string>
+    <string name="notify_summary">抢到红包时，有声音提醒</string>
+    <string name="receive_delay_titile">红包延时</string>
+    <string name="receive_delay_summary"></string>
+    <string name="auto_answer_titile">自动回复</string>
+    <string name="auto_answer_summary"></string>
+    <string name="red_envelope_record_titile">红包记录</string>
+    <string name="red_envelope_record_summary">记录红包助手帮你抢到的红包数量和金额</string>
+    <string name="prompt">"提示:
+        \t请勿屏蔽微信等应用的群信息提示及应用相关通知提醒功能，适当延迟抢红包的时间可防止帐号被冻结。"</string>
+    <string name="none">无</string>
+    <string name="auto_answer_1">太激动了，谢谢老板！</string>
+    <string name="auto_answer_2">谢谢！</string>
+    <string name="auto_answer_3">自定义回复</string>
+    <string name="red_envelope_notification">已经抢到一个<xliff:g id="notify_money">%1$.2f</xliff:g>元的微信红包</string>
+    <string name="record_title">累计抢红包（元）</string>
+    <string name="record_name">红包记录</string>
+    <string name="record_rab_count">自动抢红包<xliff:g id="record_count">%1$d</xliff:g>次</string>
+    <string name="record_luck">手气</string>
+    <string name="record_speed">速度</string>
+    <string name="record_sucess_time">成功抢到<xliff:g id="record_time">%1$d</xliff:g>次</string>
+    <string name="record_average_time">平均用时<xliff:g id="record_time">%1$.1f</xliff:g>秒</string>
+    <string name="save_data_fail">保存数据失败</string>
+    <string name="record_money"><xliff:g id="money">%1$.2f</xliff:g>元</string>
+    <string name="record_rab_count_init">自动抢红包0次</string>
+    <string name="record_sucess_time_init">成功抢到0次</string>
+    <string name="record_average_time_init">平均用时0.0秒</string>
+    <string name="record_all_money"><xliff:g id="money">%1$.2f</xliff:g></string>
+    <string name="week">星期</string>
+    <string name="yesterday">昨天</string>
+    <string name="help_title_1">\t一、进入设置辅助服务，将红包助手的服务打开，即可自动抢红包，操作如下图所示：</string>
+    <string name="help_title_4">\t二、注意事项：</string>
+    <string name="help_title"></string>
+    <string name="clear_data">清空数据</string>
+	<string name="dilog_exit">退出</string>
+	<string name="notify_sound_title">声音</string>
+	<string name="notify_sound_summary">来红包时提醒</string>
+	<string name="notify_vibrate_title">震动</string>
+	<string name="notify_vibrate_summary">来红包时震动</string>
+	<string name="notify_night_title">夜间免打扰设置</string>
+	<string name="notify_night_summary">"夜间23:00-07:00静音设置"</string>
+	<string name="red_envelope_notify_summary">接到红包时通知设置</string>
+	<string name="notify_settings_prompt">"提示:\n 
+        \t通知设置中的声音和震动设置和抢红包模式中的通知相关联，通知设置中的声音和震动设置决定着抢红包模式的通知是否有声音或震动（自动抢红默认来红包时没有声音和震动提示）"</string>
+    <string name="soft_update_title">更新版本</string>
+	<string name="soft_update_info">更新到新的版本可防止抢红包功能无效，可将当前的版本<xliff:g id="curVersion">%1$s</xliff:g>更新到<xliff:g id="newVersion">%2$s</xliff:g></string>
+	<string name="soft_update_updatebtn">更新</string>
+	<string name="soft_update_later">稍后更新</string>
+	<string name="install_apk_error">安装应用出错</string>
+	<string name="check_update_toast">当前已是最新版本</string>
+	<string name="check_new_version">检查新版本</string>
+	<string name="soft_update_cancel">取消</string>
+	<string name="update_progress_title">新版本下载中！</string>
+	<string name="qq_red_envelope_notification">已经抢到一个<xliff:g id="notify_money">%1$.2f</xliff:g>元的QQ红包</string>
+	<string name="data_tips_msg">没有记录</string>
+	<string name="data_loading_msg">"正在加载记录..."</string>
+
+    <string name="mm_video_tran">分享</string>
+    <string name="comment_six_6_des">评论</string>
+    <string name="receive_delay_random">随机2-8s</string>
+    <string name="prompt_other">"提示:
+        \t请勿屏蔽微信的群消息提示和通知提醒功能，以免影响功能的正常使用。
+        \t抢红包速度过快可能会出现帐号被冻结的风险，设置随机2-8S抢红包会更加安全。"</string>
+    <string name="wechat_redpackage_name">微信红包一个</string>
+    <string name="defined_reply_ok">确定</string>
+    <string name="defined_reply_cancle">取消</string>
+    <string name="defined_reply_toast">内容不能为空</string>
+    <string name="app_name">微信插件</string>
+    <string name="red_envelope_update_titile">检查更新</string>
+    <string name="network_not_available">网络不可用！</string>
+</resources>

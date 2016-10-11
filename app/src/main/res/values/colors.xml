@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#efffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#b74f43</color>
+    <color name="record_list_background">#e33434</color>
+    <color name="record_sub_title_bg_color">#f3efe6</color>
+    <color name="record_list_text_color">#323232</color>
+    <color name="record_bottom_bg_color">#e8e8e8</color>
+</resources>

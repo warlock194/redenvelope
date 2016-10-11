@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    api-level="23"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.0"
+    timestamp="507770088132454"
+    token="586441424399296573"
+    verifier="FULL_BUILD_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="3525" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="691" />
+    <task
+        name="verifier"
+        duration="15" />
+
+    <artifact
+        location="/work2/downloadDemo/RedEnvelope2/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="507770088132454"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/work2/downloadDemo/RedEnvelope2/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

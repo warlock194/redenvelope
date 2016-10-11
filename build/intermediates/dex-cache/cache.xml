@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/work2/downloadDemo/RedEnvelope2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2ce9e77ed195a4c67f3f824a2a62b0701ce41a47">
+        <dex dex="/work2/downloadDemo/RedEnvelope2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a9db137b11de95da3af89389ff6877255f0f79ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/work2/downloadDemo/RedEnvelope2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f6a283eee4d7d4f617d58907246a540ed63899d3">
+        <dex dex="/work2/downloadDemo/RedEnvelope2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59d3a15b0304ab20a8733f07298b2008c98bb208/classes.dex" />
+    </item>
+
+</items>

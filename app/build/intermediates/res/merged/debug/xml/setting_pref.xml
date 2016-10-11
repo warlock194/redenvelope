@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orderingFromXml="true" >
+    
+    <SwitchPreference
+        android:key="key_enable_wechat"
+        android:defaultValue="false"
+        android:persistent="false"
+        android:title="@string/red_envelope_title"
+        android:summary="@string/red_envelope_summary"/>
+    
+    <SwitchPreference
+        android:key="key_enable_notify"
+    	android:defaultValue="false"
+        android:persistent="false"
+        android:title="@string/notify_titile"
+        android:summary="@string/notify_summary"/>
+
+    <hwdroid.preference.ActionListPreference
+        android:key="key_wechat_mode"
+        android:title="@string/wechat_mode_title"
+        android:defaultValue="0"
+        android:summary="@string/wx_mode_0"
+        android:entries="@array/wechat_mode_settings_title"
+        android:entryValues="@array/wechat_mode_settings_values"/>
+
+    <hwdroid.preference.ActionListPreference
+        android:key="key_receive_delay"
+        android:title="@string/receive_delay_titile"
+        android:defaultValue="3"
+        android:summary="@string/receive_delay_summary"
+        android:entries="@array/receive_delay_entries"
+        android:entryValues="@array/receive_delay_values"/>
+
+    <hwdroid.preference.ActionListPreference
+        android:key="key_auto_answer"
+        android:title="@string/auto_answer_titile"
+        android:defaultValue="0"
+        android:summary="@string/auto_answer_summary"
+        android:entries="@array/auto_answer_entries"
+        android:entryValues="@array/auto_answer_values"/>
+    
+    <Preference
+        android:key="key_red_envelope_notify_settings"
+    	android:title="@string/notify_settings"
+        android:summary="@string/red_envelope_notify_summary"
+        />
+
+    <Preference
+        android:key="Key_red_envelope_record"
+        android:title="@string/red_envelope_record_titile"
+        android:summary="@string/red_envelope_record_summary"
+        />
+
+    <Preference
+        android:key="Key_red_envelope_update"
+        android:title="@string/red_envelope_update_titile"
+        />
+    
+    <Preference
+        android:key="prompt"
+        android:selectable="false"
+        android:layout="@layout/hint"/>
+</PreferenceScreen>

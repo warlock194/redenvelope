@@ -1,0 +1,7 @@
+#Tue Oct 11 14:56:49 CST 2016
+base.0=/work2/downloadDemo/RedEnvelope2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a9db137b11de95da3af89389ff6877255f0f79ab
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/work2/downloadDemo/RedEnvelope2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59d3a15b0304ab20a8733f07298b2008c98bb208/classes.dex
+base.1=/work2/downloadDemo/RedEnvelope2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_59d3a15b0304ab20a8733f07298b2008c98bb208
+file.0=/work2/downloadDemo/RedEnvelope2/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a9db137b11de95da3af89389ff6877255f0f79ab/classes.dex

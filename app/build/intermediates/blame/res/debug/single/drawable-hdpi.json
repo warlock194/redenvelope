@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/hw_actionbar_back_normal.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/hw_actionbar_back_normal.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/clear_btn.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/clear_btn.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/red_packet_notification.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/red_packet_notification.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/header_bg_line.9.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/header_bg_line.9.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/record_text_bg.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/record_text_bg.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/record_background.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/record_background.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/hw_actionbar_back_disabled.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/hw_actionbar_back_disabled.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/mmvideo.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/mmvideo.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/hw_actionbar_back_pressed.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/hw_actionbar_back_pressed.png"
+    }
+]
