@@ -2,25 +2,21 @@ package com.android.redenvelope;
 
 import android.annotation.SuppressLint;
 import android.app.KeyguardManager;
-import android.app.KeyguardManager.KeyguardLock;
 import android.app.Notification;
-import android.app.Notification.Builder;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.media.MediaPlayer;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.PowerManager;
-import android.os.SystemClock;
 import android.os.PowerManager.WakeLock;
+import android.os.SystemClock;
 import android.os.Vibrator;
 import android.util.Log;
-
 
 import java.util.Calendar;
 
@@ -172,12 +168,17 @@ public class NotifyHelper {
     }
     
     public static void handleScreenOn(Context context) {
-    	PowerManager pm = getPowerManager(context);
-    	//mPM.wakeUp(SystemClock.uptimeMillis());
+        Log.i(TAG, "handleScreenOn " );
+        PowerManager pm = getPowerManager(context);
+        Log.i(TAG, "1111111 " );
+        //mPM.wakeUp(SystemClock.uptimeMillis());
     	WakeLock mWakeLock = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK
         		|PowerManager.ACQUIRE_CAUSES_WAKEUP|PowerManager.ON_AFTER_RELEASE, "reevnelope wakeup");
-    	mWakeLock.acquire();
-    	mWakeLock.release();
+        Log.i(TAG, "22222222 " );
+        mWakeLock.acquire();
+        Log.i(TAG, "333333333 " );
+        mWakeLock.release();
+        Log.i(TAG, "444444444 " );
     }
     
     public static void handleScreenOff(Context context) {

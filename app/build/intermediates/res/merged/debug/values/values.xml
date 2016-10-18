@@ -74,11 +74,11 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-    <bool name="setting_dark_mode">false<!--true--></bool>
+    <bool name="setting_dark_mode">false</bool>
     <color name="app_color_primary">#01cc99</color>
-    <color name="back_color">#ffffff<!--#01cc99--></color>
-    <color name="back_color_dark">#ffffff<!--#01ae82--></color>
-    <color name="back_color_disabled">#ffffff<!--#01cc99--></color>
+    <color name="back_color">#ffffff</color>
+    <color name="back_color_dark">#ffffff</color>
+    <color name="back_color_disabled">#ffffff</color>
     <color name="black">#000000</color>
     <color name="gray_btn_bg_color_disabled">#c6c6c6</color>
     <color name="gray_btn_bg_color_normal">#c6c6c6</color>
@@ -109,10 +109,10 @@
     <color name="red_line_btn_text_color_pressed">#ff5b4f</color>
     <color name="setting_edge_effect_color">#bdbdbd</color>
     <color name="setting_header_bg_line_color">#d6d6d6</color>
-    <color name="setting_header_color">#00b1b1<!--#f8f8f8--></color>
+    <color name="setting_header_color">#00b1b1</color>
     <color name="setting_header_divider_color">#d6d6d6</color>
-    <color name="setting_title_color">#FFFFFFFF<!--#333333--></color>
-    <color name="setting_title_color_unchecked">#7FFFFFFF<!--#6f333333--></color>
+    <color name="setting_title_color">#FFFFFFFF</color>
+    <color name="setting_title_color_unchecked">#7FFFFFFF</color>
     <color name="tab_text_selected_color">#333333</color>
     <color name="tab_text_unselected_color">#808080</color>
     <color name="white">#efffffff</color>
@@ -223,7 +223,7 @@
     <string name="wx_mode_3">Notify the manual rob (titles) prevention</string>
     <string name="yesterday">yesterday</string>
     <style name="AppBaseTheme">
-        
+
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to

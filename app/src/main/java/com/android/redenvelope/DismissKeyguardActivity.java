@@ -9,11 +9,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Looper;
-import android.view.Window;
-import android.view.WindowManager;
 import android.util.Log;
+import android.view.WindowManager;
 
 public class DismissKeyguardActivity extends Activity{
 	private static final String TAG = "RedEnvelopeDismissKeyguard";
@@ -36,11 +33,11 @@ public class DismissKeyguardActivity extends Activity{
     	filter.setPriority(IntentFilter.SYSTEM_HIGH_PRIORITY);
     	registerReceiver(mKeyguardLockRecevier, filter);
     	
-//    	PendingIntent mPendingIntent = (PendingIntent) getIntent().getExtra("pendingIntent");
-//    	Log.i(TAG, "DismissKeyguardActivity onCreate mPendingIntent : " + mPendingIntent);
-//    	if (null != mPendingIntent) {
-//    		NotifyHelper.send(mPendingIntent);
-//    	}
+    	PendingIntent mPendingIntent = (PendingIntent) getIntent().getExtras().get("pendingIntent");
+    	Log.i(TAG, "DismissKeyguardActivity onCreate mPendingIntent : " + mPendingIntent);
+    	if (null != mPendingIntent) {
+    		NotifyHelper.send(mPendingIntent);
+    	}
 	}
 	
 	private BroadcastReceiver mKeyguardLockRecevier = new BroadcastReceiver() {

@@ -1,10 +1,11 @@
 package com.android.redenvelope.preference;
 
-import com.android.redenvelope.R;
 import android.app.ActionBar;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
+import android.view.MenuItem;
 
+import com.android.redenvelope.R;
 import com.android.redenvelope.Utils;
 
 public class PreferenceActivityEx extends PreferenceActivity {
@@ -16,7 +17,7 @@ public class PreferenceActivityEx extends PreferenceActivity {
         setTitle(getResources().getString(R.string.app_title_name));
         ActionBar actionBar = getActionBar();
         if(actionBar != null){
-            actionBar.setDisplayHomeAsUpEnabled(false);
+            actionBar.setDisplayHomeAsUpEnabled(true);
         }
 
 /*        ActionBarView actionBarView = getActionBarView();
@@ -29,7 +30,7 @@ public class PreferenceActivityEx extends PreferenceActivity {
         Utils.setSystemBarColor(this);
     }
     
-   /* @Override
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
     	// TODO Auto-generated method stub
     	if (item.getItemId() == android.R.id.home) {
@@ -37,6 +38,6 @@ public class PreferenceActivityEx extends PreferenceActivity {
     		return super.onOptionsItemSelected(item);
     	}
     	return super.onOptionsItemSelected(item);
-    }*/
+    }
 
 }

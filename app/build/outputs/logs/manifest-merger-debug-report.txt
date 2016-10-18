@@ -127,7 +127,7 @@ ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:45:
 		ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:47:13-45
 	android:name
 		ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:45:19-50
-intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
 ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:48:13-52:29
 action#android.intent.action.MAIN
 ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:49:17-69
@@ -137,10 +137,6 @@ category#android.intent.category.DEFAULT
 ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:50:17-76
 	android:name
 		ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:50:27-73
-category#android.intent.category.LAUNCHER
-ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:51:17-77
-	android:name
-		ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:51:27-74
 activity#com.android.redenvelope.RedEnvelopeRecord
 ADDED from /work2/downloadDemo/RedEnvelope2/app/src/main/AndroidManifest.xml:54:10-55:52
 	android:screenOrientation

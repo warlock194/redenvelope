@@ -4,12 +4,12 @@
         "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/xml/notify_settings.xml"
     },
     {
-        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/xml/setting_pref.xml",
-        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/xml/setting_pref.xml"
-    },
-    {
         "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/xml/accessibilityservice_config.xml",
         "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/xml/accessibilityservice_config.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/xml/setting_pref.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/xml/setting_pref.xml"
     },
     {
         "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/xml/record_list.xml",

@@ -26,20 +26,12 @@ public final class R {
     public static final class attr {
     }
     public static final class bool {
-        /** true
-         */
         public static final int setting_dark_mode=0x7f080000;
     }
     public static final class color {
         public static final int app_color_primary=0x7f090000;
-        /** #01cc99
-         */
         public static final int back_color=0x7f090001;
-        /** #01ae82
-         */
         public static final int back_color_dark=0x7f090002;
-        /** #01cc99
-         */
         public static final int back_color_disabled=0x7f090003;
         public static final int black=0x7f090004;
         public static final int gray_btn_bg_color_disabled=0x7f090005;
@@ -71,15 +63,9 @@ public final class R {
         public static final int red_line_btn_text_color_pressed=0x7f09001f;
         public static final int setting_edge_effect_color=0x7f090020;
         public static final int setting_header_bg_line_color=0x7f090021;
-        /** #f8f8f8
-         */
         public static final int setting_header_color=0x7f090022;
         public static final int setting_header_divider_color=0x7f090023;
-        /** #333333
-         */
         public static final int setting_title_color=0x7f090024;
-        /** #6f333333
-         */
         public static final int setting_title_color_unchecked=0x7f090025;
         public static final int tab_text_selected_color=0x7f090026;
         public static final int tab_text_unselected_color=0x7f090027;
@@ -120,17 +106,16 @@ public final class R {
         public static final int RelativeLayout1=0x7f0d0010;
         public static final int allRecordTitle=0x7f0d0004;
         public static final int averageUsedTime=0x7f0d000b;
+        public static final int clean_data=0x7f0d0014;
         public static final int editReply=0x7f0d0000;
         public static final int ib_share=0x7f0d0002;
         public static final int linearLayout1=0x7f0d0006;
         public static final int linearLayout2=0x7f0d0009;
         public static final int mini=0x7f0d0001;
         public static final int recordAllMoney=0x7f0d0005;
-        public static final int recordList=0x7f0d000e;
+        public static final int recordList=0x7f0d000d;
         public static final int recordSubTitle=0x7f0d000c;
-        public static final int record_tips=0x7f0d000d;
-        public static final int settings_accessibility_server=0x7f0d0014;
-        public static final int settings_help=0x7f0d0015;
+        public static final int record_tips=0x7f0d000e;
         public static final int show_text=0x7f0d0003;
         public static final int successCount=0x7f0d0008;
         public static final int textLuck=0x7f0d0007;

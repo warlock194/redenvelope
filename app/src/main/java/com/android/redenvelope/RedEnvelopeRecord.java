@@ -1,23 +1,20 @@
 package com.android.redenvelope;
 
-import java.util.ArrayList;
-
-import com.android.redenvelope.database.RedEnvelopeDBHelper;
-
 import android.R.integer;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.android.redenvelope.database.RedEnvelopeDBHelper;
+
+import java.util.ArrayList;
 
 
 public class RedEnvelopeRecord extends Activity{
@@ -36,7 +33,11 @@ public class RedEnvelopeRecord extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-//		setContentView(R.layout.record);
+		setContentView(R.layout.record);
+		ActionBar actionBar = getActionBar();
+		if(actionBar != null){
+			actionBar.setDisplayHomeAsUpEnabled(true);
+		}
 //		setActivityContentView(R.layout.record);
 //		ensureLayout();
 //		initActionBar();
@@ -133,7 +134,7 @@ public class RedEnvelopeRecord extends Activity{
 					aveageTime += arrayList.get(i).getUsedTime();
 				}
 				mRecordAllMoney.setText(mContext.getResources()
-						.getString(R.string.record_all_money));
+						.getString(R.string.record_all_money, allMoney));
 				mSuccessCount.setText(mContext.getResources()
 						.getString(R.string.record_sucess_time, sucCount));
 				if (0 != sucCount)
@@ -179,7 +180,7 @@ public class RedEnvelopeRecord extends Activity{
 
 	private void addOptionsMenuItems(Menu menu) {
 		// TODO Auto-generated method stub
-//		menu.add(Menu.NONE, Menu.FIRST, 0, R.string.clear_data);
+		menu.add(Menu.NONE, Menu.FIRST, 0, R.string.clear_data);
 	}
 	
 	private void clearAllData() {
