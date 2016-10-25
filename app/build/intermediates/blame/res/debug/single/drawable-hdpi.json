@@ -16,12 +16,12 @@
         "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/header_bg_line.9.png"
     },
     {
-        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/record_text_bg.png",
-        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/record_text_bg.png"
-    },
-    {
         "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/record_background.png",
         "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/record_background.png"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/record_text_bg.png",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/record_text_bg.png"
     },
     {
         "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",

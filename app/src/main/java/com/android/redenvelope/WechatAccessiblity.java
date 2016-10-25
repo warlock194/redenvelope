@@ -1,12 +1,5 @@
 package com.android.redenvelope;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.ComponentName;
@@ -16,7 +9,7 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.content.res.Resources.NotFoundException;
+import android.graphics.Rect;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -30,7 +23,13 @@ import android.widget.Toast;
 
 import com.android.redenvelope.database.RedEnvelopeDBHelper;
 import com.android.redenvelope.service.RedEnvelopeService;
-import android.graphics.Rect;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class WechatAccessiblity {
 	private static final String TAG = "WechatAccessibility";
@@ -1367,7 +1366,7 @@ public class WechatAccessiblity {
 	}
 
 	private void check() {
-
+Log.d("warlock","check  --->");
 		//start by guojun topwise fix bug#9650
 		//if (mService != null) {
 		if (mService != null && WechatConfig.WECHAT_TIMELINE_UI.equals(mCurrentClassName)) {
@@ -1440,8 +1439,8 @@ public class WechatAccessiblity {
 
 
 	private void showTimeFloat() {
-
-		if ( true) {
+		Log.d("warlock"," show TimeFloat -->");
+		if ( false) {
 			return;
 		}
 		AccessibilityNodeInfo rootInActiveWindow = mService.getRootInActiveWindow();

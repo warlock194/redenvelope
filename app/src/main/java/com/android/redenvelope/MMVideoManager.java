@@ -2,6 +2,7 @@ package com.android.redenvelope;
 
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
 /**
  * Created by topwise on 16-7-2.
@@ -17,6 +18,7 @@ public class MMVideoManager {
     private Context mContext;
 
     public void dostart(int x, int y, int clickTime) {
+        Log.d("warlock","  dostart -- >");
         Intent intent = new Intent();
         intent.putExtra("shortcut_x", x);
         intent.putExtra("shortcut_y", y);
@@ -27,6 +29,7 @@ public class MMVideoManager {
     }
 
     public void dostartPlayFloat() {
+        Log.d("warlock","  dostart -- >");
         Intent intent = new Intent();
         intent.setAction(MMShortcutService.CMD_FLOATSHORTCUT_OPEN);
         intent.putExtra("shortcut_play", true);

@@ -1,8 +1,5 @@
 package com.android.redenvelope;
 
-import com.android.redenvelope.preference.PreferenceActivityEx;
-import com.android.redenvelope.service.RedEnvelopeService;
-
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.BroadcastReceiver;
@@ -29,6 +26,9 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.android.redenvelope.preference.PreferenceActivityEx;
+import com.android.redenvelope.service.RedEnvelopeService;
 
 public class SettingActivity extends PreferenceActivityEx
 			implements OnPreferenceChangeListener, OnPreferenceClickListener{
@@ -347,13 +347,14 @@ public class SettingActivity extends PreferenceActivityEx
 			Intent intent = new Intent(this, RedEnvelopeRecord.class);
 			startActivity(intent);
 		} else if (KEY_RED_ENVELOPE_UPDATE.equals(keyValues)) {
-			/*if (!isNetworkAvailable()) {
+			if (!isNetworkAvailable()) {
 				Toast.makeText(SettingActivity.this,getResources().getString(R.string.network_not_available), Toast.LENGTH_SHORT).show();
 				return true;
 			}
 			mUpdateManager.setAutoCheck(false);
-			mUpdateManager.checkUpdate();*/
-			Toast.makeText(SettingActivity.this, WechatConfig.TTTTTT, Toast.LENGTH_SHORT).show();
+			mUpdateManager.checkUpdate();
+//			Toast.makeText(SettingActivity.this, WechatConfig.TTTTTT, Toast.LENGTH_SHORT).show();
+//			System.exit(0);
 		}
 		return true;
 	}

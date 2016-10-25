@@ -12,6 +12,10 @@
         "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/record.xml"
     },
     {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/layout/preference_custom.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/preference_custom.xml"
+    },
+    {
         "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/debug/layout/dialog_defined_reply.xml",
         "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/dialog_defined_reply.xml"
     },

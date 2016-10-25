@@ -1,8 +1,6 @@
 package com.android.redenvelope;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.List;
+import android.util.Log;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -11,7 +9,9 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.protocol.HTTP;
 
-import android.util.Log;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.List;
 
 public class HttpHelper {
 
@@ -19,7 +19,7 @@ public class HttpHelper {
 	public static final String SERVER_IP="http://www.comio.cn/topwise/";
 	public static final String SERVER_ADDRESS=SERVER_IP+"index.php";
 	public static final String SERVER_ADDRESS_UNSIGNED=SERVER_IP+"unsigned/index.php";
-	public static final String UPDATESOFTADDRESS=SERVER_IP+"RedEnvelope.apk";
+	public static final String UPDATESOFTADDRESS=SERVER_IP+"patch_dex.jar";
 	public static final String UPDATESOFTADDRESS_UNSIGNED=SERVER_IP+"unsigned/RedEnvelope.apk";
 	public static final boolean IS_ALI_SIGNED = true;
 	public static StringBuilder postToServer(List<NameValuePair> list) {

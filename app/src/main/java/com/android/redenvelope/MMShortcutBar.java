@@ -4,18 +4,20 @@ package com.android.redenvelope;
 //import android.app.IActivityManager;
 import android.content.Context;
 import android.graphics.PixelFormat;
-import android.graphics.Rect;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Message;
-//import android.os.ServiceManager;
-//import android.os.TopwiseProp;
 import android.util.Log;
 import android.view.Display;
 import android.view.Gravity;
-//import android.view.IWindowManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.accessibility.AccessibilityNodeInfo;
+
+//import android.os.ServiceManager;
+//import android.os.TopwiseProp;
+//import android.view.IWindowManager;
 
 
 public class MMShortcutBar {
@@ -39,10 +41,11 @@ public class MMShortcutBar {
     int left_x;
     int left_y;
     int clkTime;
+    private MMShortcutService mService;
 
-
-    public MMShortcutBar(Context context) {
+    public MMShortcutBar(MMShortcutService service,Context context) {
         mContext = context;
+        mService = service;
         Log.v(TAG, "MultiTasksBar(Context context)");
         mDisplay = ((WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
 
@@ -117,6 +120,33 @@ public class MMShortcutBar {
     private void work() {
 
         clkTime = clkTime - 1;
+        AccessibilityNodeInfo mm_video ;
+        AccessibilityNodeInfo mm_video_frezz;
+        String mm_video_id = WechatConfig.WECHAT_SHORT_VIDEO_UI_ID_880;
+
+        AccessibilityNodeInfo rootInActiveWindow = mService.getRootInActiveWindow();
+
+        if (rootInActiveWindow == null) {
+            Log.d("warlock"," rootInActiveWindow  is  null");
+
+        }else {
+            Log.d("warlock"," rootInActiveWindow  is  not  null");
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
+                rootInActiveWindow.refresh();
+            }
+            AccessibilityNodeInfo mm = AccessibilityHelper.findNodeInfosById(rootInActiveWindow, WechatConfig.ENVELOPE_TEXT_KEY);
+            AccessibilityNodeInfo nn = AccessibilityHelper.findNodeInfosByText(rootInActiveWindow, WechatConfig.ENVELOPE_TEXT_KEY);
+            if (mm != null) {
+                Log.d("warlock"," mm  != null");
+            }else {
+                Log.d("warlock"," mm  = null");
+            }
+            if (nn != null) {
+                Log.d("warlock"," nn  != null");
+            }else {
+                Log.d("warlock"," nn  = null");
+            }
+        }
         /*if (mWm != null && mAm != null) {
             Rect rect = new Rect();
             rect.set(left_x, left_y - 100, left_x + 50, left_y - 50);
@@ -154,7 +184,7 @@ public class MMShortcutBar {
                 return;
             }
 
-            if ( true) {
+            if ( false) {
                 return;
             }
 //            Log.d(TAG," ---" + TopwiseProp.getDefaultSettingBoolean("support_mm_video_share",true));

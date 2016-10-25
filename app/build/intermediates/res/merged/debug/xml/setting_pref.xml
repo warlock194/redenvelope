@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orderingFromXml="true" >
+    android:orderingFromXml="true">
     
     <SwitchPreference
         android:key="key_enable_wechat"
         android:defaultValue="false"
         android:persistent="false"
-        android:textColor="@color/black"
         android:title="@string/red_envelope_title"
         android:summary="@string/red_envelope_summary"/>
-    
+
     <SwitchPreference
         android:textColor="@color/black"
         android:key="key_enable_notify"
@@ -53,14 +52,12 @@
         />
 
     <Preference
-        android:textColor="@color/black"
         android:key="Key_red_envelope_record"
         android:title="@string/red_envelope_record_titile"
         android:summary="@string/red_envelope_record_summary"
         />
 
     <Preference
-        android:textColor="@color/black"
         android:key="Key_red_envelope_update"
         android:title="@string/red_envelope_update_titile"
         />

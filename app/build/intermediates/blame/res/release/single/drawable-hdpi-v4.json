@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/drawable-hdpi-v4/wechat_3.jpg",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/wechat_3.jpg"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/drawable-hdpi-v4/ic_redenvelope.jpg",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/drawable-hdpi/ic_redenvelope.jpg"
+    }
+]

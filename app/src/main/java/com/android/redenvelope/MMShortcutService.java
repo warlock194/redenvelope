@@ -1,17 +1,16 @@
 package com.android.redenvelope;
 
 
-import android.app.Service;
+import android.accessibilityservice.AccessibilityService;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.os.Bundle;
-import android.os.IBinder;
 import android.util.Log;
+import android.view.accessibility.AccessibilityEvent;
 
 
-public class MMShortcutService extends Service {
+public class MMShortcutService extends AccessibilityService {
     public static final String CMD_FLOATSHORTCUT_OPEN = "com.topwise.mmshort.open";
     public static final String CMD_FLOATSHORTCUT_CLOSE = "com.topwise.mmsort.close";
     private MMShortcutBar mFloatShortcutBar;
@@ -21,20 +20,29 @@ public class MMShortcutService extends Service {
 
     //start by guojun topwise 2016.8.4  // FIXME: 16-8-4  bug#9197
     private String MM_ACTION = "com.android.action.MMVIDEO";
+    private Intent intent;
+
     @Override
     public void onCreate() {
         // TODO Auto-generated method stub
         IntentFilter filter = new IntentFilter();
         filter.addAction(MM_ACTION);
         registerReceiver(mVideoReceiver,filter);
+        mFloatShortcutBar = new MMShortcutBar(this,getApplicationContext());
         super.onCreate();
     }
-    //end by guojun topwise 2016.8.4  // FIXME: 16-8-4  bug#9197
+
     @Override
-    public IBinder onBind(Intent intent) {
-        // TODO Auto-generated method stub
-        return null;
+    public void onAccessibilityEvent(AccessibilityEvent accessibilityEvent) {
+
     }
+
+    @Override
+    public void onInterrupt() {
+
+    }
+
+    //end by guojun topwise 2016.8.4  // FIXME: 16-8-4  bug#9197
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -121,7 +129,7 @@ public class MMShortcutService extends Service {
             mFloatShortcutBar.onOpen(x, y, clickTime);
             Log.v(TAG, "onOpen(),mMultiTasks != null ");
         } else {
-            mFloatShortcutBar = new MMShortcutBar(getApplicationContext());
+//            mFloatShortcutBar = new MMShortcutBar(this,getApplicationContext());
             mFloatShortcutBar.onOpen(x, y, clickTime);
             Log.v(TAG, "onOpen(),mMultiTasks == null ");
         }

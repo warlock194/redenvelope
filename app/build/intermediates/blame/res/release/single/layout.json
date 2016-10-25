@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/dismiss_keyguard.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/dismiss_keyguard.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/preference_custom.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/preference_custom.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/multi_task_mm.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/multi_task_mm.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/record.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/record.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/multi_task_play.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/multi_task_play.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/hint_other.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/hint_other.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/dialog_tips_layout.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/dialog_tips_layout.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/clear_btn.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/clear_btn.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/hint.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/hint.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/dialog_defined_reply.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/dialog_defined_reply.xml"
+    },
+    {
+        "merged": "/work2/downloadDemo/RedEnvelope2/app/build/intermediates/res/merged/release/layout/softupdate_progress.xml",
+        "source": "/work2/downloadDemo/RedEnvelope2/app/src/main/res/layout/softupdate_progress.xml"
+    }
+]

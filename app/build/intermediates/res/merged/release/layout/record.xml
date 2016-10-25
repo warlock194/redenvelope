@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.1"
+        android:orientation="vertical"
+        android:background="@drawable/record_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.11"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/allRecordTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/record_marginTop"
+                    android:gravity="center"
+                    android:text="@string/record_title"
+                    android:textColor="@color/red"
+                    android:textSize="@dimen/record_all_title_text_size" />
+
+                <TextView
+                    android:id="@+id/recordAllMoney"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/record_marginTop"
+                    android:gravity="center"
+                    android:text="@string/record_all_money_init"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/record_all_money_text_size" />
+
+            </LinearLayout>
+
+            <!--<TextView
+                android:id="@+id/recordAutoCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/record_marginTop"
+                android:gravity="center"
+                android:text="@string/record_rab_count_init" />-->
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1.5"
+            android:layout_height="0dp" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/record_margin_left_right"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textLuck"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/successCount"
+                    android:layout_below="@+id/successCount"
+                    android:layout_marginTop="@dimen/record_marginTop"
+                    android:background="@drawable/record_text_bg"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/record_luck" />
+
+                <TextView
+                    android:id="@+id/successCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="@dimen/record_marginTop"
+                    android:layout_toLeftOf="@+id/linearLayout1"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="@string/record_sucess_time_init" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/linearLayout1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/record_margin_left_right"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textSpeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/successCount"
+                    android:layout_alignBottom="@+id/successCount"
+                    android:layout_marginTop="@dimen/record_marginTop"
+                    android:layout_toLeftOf="@+id/linearLayout2"
+                    android:background="@drawable/record_text_bg"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:text="@string/record_speed" />
+
+                <TextView
+                    android:id="@+id/averageUsedTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/textLuck"
+                    android:layout_alignBottom="@+id/textLuck"
+                    android:layout_marginTop="@dimen/record_marginTop"
+                    android:layout_toLeftOf="@+id/linearLayout2"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:text="@string/record_average_time_init" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recordSubTitle"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/record_list_background"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/record_name" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:background="@color/record_list_background">
+
+
+        <ListView
+            android:id="@+id/recordList"
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+        </ListView>
+
+        <Button
+            android:layout_weight="2"
+            android:id="@+id/record_tips"
+            android:gravity="center"
+            android:textSize="@dimen/record_tip_size"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            android:text="@string/data_loading_msg" />
+    </LinearLayout>
+
+</LinearLayout>

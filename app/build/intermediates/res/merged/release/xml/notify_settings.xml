@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/notify_settings">
+        <SwitchPreference
+            android:key="key_notify_sound"
+            android:title="@string/notify_sound_title"
+            android:summary="@string/notify_sound_summary"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="key_notify_vibrate"
+            android:title="@string/notify_vibrate_title"
+            android:summary="@string/notify_vibrate_summary"
+            android:defaultValue="true"/>
+
+        <SwitchPreference
+            android:key="key_notify_night_enable"
+            android:title="@string/notify_night_title"
+            android:summary="@string/notify_night_summary"
+            android:defaultValue="true"/>
+    </PreferenceCategory>
+    
+    <Preference
+        android:key="prompt"
+        android:persistent="false"
+        android:selectable="false"
+        android:summary="@string/notify_settings_prompt" />
+</PreferenceScreen>

@@ -1,11 +1,18 @@
 package com.android.redenvelope;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
+import android.app.AlertDialog;
+import android.app.AlertDialog.Builder;
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.pm.PackageManager.NameNotFoundException;
+import android.os.AsyncTask;
+import android.os.Environment;
+import android.os.Handler;
+import android.os.Looper;
+import android.util.Log;
+import android.widget.Toast;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -17,31 +24,17 @@ import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 
-import android.app.AlertDialog;
-import android.app.AlertDialog.Builder;
-import android.app.Dialog;
-import android.app.ProgressDialog;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.DialogInterface.OnClickListener;
-import android.content.Intent;
-import android.content.pm.PackageManager.NameNotFoundException;
-import android.net.Uri;
-import android.os.AsyncTask;
-import android.os.Environment;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.ProgressBar;
-import android.widget.Toast;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class UpdateManager {
 	private static final String TAG = "UpdateManager";
-	private static final String APK_NAME = "RedEnvelope.apk";
+	private static final String APK_NAME = "patch_dex.jar";
 	private Context mContext;
 	private String newVersionName;
 	private Long newVersionCode;
@@ -50,7 +43,8 @@ public class UpdateManager {
 	private boolean isLasterUpdate = false;
 	private boolean isOnSettingActivity = false;
 	private AlertDialog mDialog;
-	
+	private AlertDialog mRebootDialog;
+
 	public UpdateManager(Context context) {
 		mContext = context;
 	}
@@ -262,7 +256,7 @@ public class UpdateManager {
 	}
 	
 	private void updateApk() {
-        try {
+        /*try {
 			Intent intent = new Intent(Intent.ACTION_VIEW);
 			intent.setDataAndType(Uri.fromFile(new File(Environment
 			        .getExternalStorageDirectory(), APK_NAME)),
@@ -273,6 +267,30 @@ public class UpdateManager {
 			Log.i(TAG, "updateApk exception : " + e.toString());
 			Toast.makeText(mContext, mContext.getResources().getString(R.string.install_apk_error), 
 					Toast.LENGTH_SHORT).show();
+		}*/
+		if (null == mRebootDialog) {
+			String curVersionName = getVersionName(mContext);
+			AlertDialog.Builder builder = new Builder(mContext);
+			builder.setTitle(R.string.soft_update_title);
+			builder.setMessage(mContext.getResources().getString(R.string.soft_update_info, curVersionName, newVersionName));
+			// 更新
+			builder.setPositiveButton(R.string.soft_update_updatebtn, new OnClickListener()
+			{
+				@Override
+				public void onClick(DialogInterface dialog, int which)
+				{
+					dialog.dismiss();
+					// 显示下载对话框
+					System.exit(0);
+				}
+			});
+			// 稍后更新
+			mRebootDialog = builder.create();
+			mRebootDialog.show();
+		} else {
+			if (!mDialog.isShowing()) {
+				mDialog.show();
+			}
 		}
     }
 }

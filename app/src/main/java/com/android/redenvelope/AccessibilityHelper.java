@@ -2,17 +2,16 @@ package com.android.redenvelope;
 
 import android.accessibilityservice.AccessibilityService;
 import android.annotation.SuppressLint;
-//import android.app.IActivityManager;
-import android.graphics.Rect;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
-//import android.view.IWindowManager;
-import android.view.MotionEvent;
 import android.view.accessibility.AccessibilityNodeInfo;
 
 import java.lang.reflect.Field;
 import java.util.List;
+
+//import android.app.IActivityManager;
+//import android.view.IWindowManager;
 
 
 @SuppressLint("NewApi")
@@ -160,7 +159,7 @@ public final class AccessibilityHelper {
 //        nodeInfo.performAction(AccessibilityNodeInfo.ACTION_SET_TEXT, arguments);
     }
 
-   /* public static void perfermTouch(Rect postion, IWindowManager mWm, IActivityManager mAm) {
+ /*   public static void perfermTouch(Rect postion, IWindowManager mWm, IActivityManager mAm) {
 
         com.android.redenvelope.MonkeyMotionEvent downEvent = new com.android.redenvelope.MonkeyTouchEvent(MotionEvent.ACTION_DOWN)
                 .addPointer(0, postion.centerX(), postion.centerY());

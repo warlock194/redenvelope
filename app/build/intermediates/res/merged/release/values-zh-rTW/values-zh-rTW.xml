@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_description">啟動搶紅包服務，支持微信、QQ。</string>
+    <string name="action_settings">設定</string>
+    <string name="after_get_back_home">返回案頭</string>
+    <string name="after_get_none">靜靜地看著</string>
+    <string name="after_open_none">靜靜地看著</string>
+    <string name="after_open_red_envelope">拆紅包</string>
+    <string name="after_open_see">看看大家的手氣（僅支持微信6.3.8版本以下）</string>
+    <string name="app_name">微信挿件</string>
+    <string name="app_title_name">紅包助手</string>
+    <string name="auto_answer_1">太激動了，謝謝老闆！</string>
+    <string name="auto_answer_2">謝謝！</string>
+    <string name="auto_answer_3">Custom reply</string>
+    <string name="auto_answer_summary"/>
+    <string name="auto_answer_titile">自動回復</string>
+    <string name="cancel">退出</string>
+    <string name="check_new_version">檢查新版本</string>
+    <string name="check_update_toast">當前已是最新版本</string>
+    <string name="clear_data">清空數據</string>
+    <string name="data_loading_msg">"正在加載記錄..."</string>
+    <string name="data_tips_msg">沒有記錄</string>
+    <string name="defined_reply_cancle">取消</string>
+    <string name="defined_reply_ok">確定</string>
+    <string name="defined_reply_toast">內容不能為空</string>
+    <string name="dilog_exit">退出</string>
+    <string name="help_title"/>
+    <string name="help_title_1">\t一、進入設定輔助服務，將紅包助手的服務打開，即可自動搶紅包，操作如下圖所示：</string>
+    <string name="help_title_4">\t二、注意事項：</string>
+    <string name="install_apk_error">安裝應用出錯</string>
+    <string name="none">無</string>
+    <string name="notify_night_summary">"夜間23:00-07:00靜音設定"</string>
+    <string name="notify_night_title">夜間免打擾設定</string>
+    <string name="notify_settings">通知設定</string>
+    <string name="notify_settings_prompt">"提示：\n
+        \t通知設定中的聲音和震動設定和搶紅包模式中的通知相關聯，通知設定中的聲音和震動設定决定著搶紅包模式的通知是否有聲音或震動（自動搶紅默認來紅包時沒有聲音和震動提示）"</string>
+    <string name="notify_sound_summary">來紅包時提醒</string>
+    <string name="notify_sound_title">聲音</string>
+    <string name="notify_summary">搶到紅包時，有聲音提醒</string>
+    <string name="notify_titile">聲音提醒</string>
+    <string name="notify_vibrate_summary">來紅包時震動</string>
+    <string name="notify_vibrate_title">震動</string>
+    <string name="open_service_button">打開輔助服務</string>
+    <string name="open_service_title">需要打開輔助服務</string>
+    <string name="prompt">"提示：
+        \t請勿遮罩微信等應用的群資訊提示及應用相關通知提醒功能,適當延遲搶紅包的時間可防止帳號被凍結。"</string>
+    <string name="prompt_other">"提示:
+        \t請勿遮罩微信的群消息提示和通知提醒功能，以免影響功能的正常使用。
+        \t搶紅包速度過快可能會出現帳號被凍結的風險，設定隨機2-8S搶紅包會更加安全。"</string>
+    <string name="qq_red_envelope_notification">已經搶到一個<ns1:g id="notify_money">%1$.2f</ns1:g>元的QQ紅包</string>
+    <string name="receive_delay_random">隨機2-8s</string>
+    <string name="receive_delay_summary"/>
+    <string name="receive_delay_titile">紅包延時</string>
+    <string name="record_all_money"><ns1:g id="money">%1$.2f</ns1:g></string>
+    <string name="record_average_time">平均用時<ns1:g id="record_time">%1$.1f</ns1:g>秒</string>
+    <string name="record_average_time_init">平均用時0.0秒</string>
+    <string name="record_luck">手氣</string>
+    <string name="record_money"><ns1:g id="money">%1$.2f</ns1:g>元</string>
+    <string name="record_name">紅包記錄</string>
+    <string name="record_rab_count">自動搶紅包<ns1:g id="record_count">%1$d</ns1:g>次</string>
+    <string name="record_rab_count_init">自動搶紅包0次</string>
+    <string name="record_speed">速度</string>
+    <string name="record_sucess_time">成功搶到<ns1:g id="record_time">%1$d</ns1:g>次</string>
+    <string name="record_sucess_time_init">成功搶到0次</string>
+    <string name="record_title">累計搶紅包（元）</string>
+    <string name="red_envelope_notification">已經搶到一個<ns1:g id="notify_money">%1$.2f</ns1:g>元的微信紅包</string>
+    <string name="red_envelope_notify_summary">接到紅包時通知設定</string>
+    <string name="red_envelope_record_summary">記錄紅包助手幫你搶到的紅包數量和金額</string>
+    <string name="red_envelope_record_titile">紅包記錄</string>
+    <string name="red_envelope_summary">開啟紅包助手後，系統自動幫您搶群紅包</string>
+    <string name="red_envelope_title">紅包助手</string>
+    <string name="save_data_fail">保存數據失敗</string>
+    <string name="setting_help">幫助</string>
+    <string name="setting_service_button">設定輔助服務</string>
+    <string name="soft_update_cancel">取消</string>
+    <string name="soft_update_info">更新到新的版本可防止搶紅包功能無效，可將當前的版本<ns1:g id="curVersion">%1$s</ns1:g>更新到<ns1:g id="newVersion">%2$s</ns1:g></string>
+    <string name="soft_update_later">稍後更新</string>
+    <string name="soft_update_title">更新版本</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="tips">設定輔助服務</string>
+    <string name="update_progress_title">新版本下載中！</string>
+    <string name="wechat_mode_title">搶紅包模式</string>
+    <string name="wechat_redpackage_name">微信紅包一个</string>
+    <string name="week">星期</string>
+    <string name="wx_mode_0">自動搶</string>
+    <string name="wx_mode_1">搶單聊紅包，群聊紅包只通知</string>
+    <string name="wx_mode_2">搶群聊紅包，單聊紅包只通知</string>
+    <string name="wx_mode_3">通知手動搶（防封號）</string>
+    <string name="yesterday">昨天</string>
+</resources>

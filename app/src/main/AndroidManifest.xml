@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.android.redenvelope"
-    android:versionCode="880"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="680"
     android:versionName="1.0.2" >
     <!--android:sharedUserId="android.uid.system"-->
 
@@ -26,7 +28,9 @@
     <uses-permission android:name="android.permission.BROADCAST_PACKAGE_REPLACED" />
     <uses-permission android:name="android.permission.RESTART_PACKAGES" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    
+    <uses-permission android:name="android.permission.INJECT_EVENTS"
+        tools:ignore="ProtectedPermissions" />
+
      <supports-screens
         android:anyDensity="true"
         android:largeScreens="true"
@@ -48,7 +52,7 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
          </activity>
          <activity android:name=".RedEnvelopeRecord"
@@ -75,6 +79,9 @@
             <intent-filter>
                 <action android:name="com.topwise.mmshort.open" />
             </intent-filter>
+            <meta-data
+                android:name="android.Mmmshortcutservice"
+                android:resource="@xml/accessibilityservice_config"/>
         </service>
 
     </application>

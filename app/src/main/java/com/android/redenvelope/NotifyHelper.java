@@ -170,15 +170,11 @@ public class NotifyHelper {
     public static void handleScreenOn(Context context) {
         Log.i(TAG, "handleScreenOn " );
         PowerManager pm = getPowerManager(context);
-        Log.i(TAG, "1111111 " );
         //mPM.wakeUp(SystemClock.uptimeMillis());
     	WakeLock mWakeLock = pm.newWakeLock(PowerManager.FULL_WAKE_LOCK
         		|PowerManager.ACQUIRE_CAUSES_WAKEUP|PowerManager.ON_AFTER_RELEASE, "reevnelope wakeup");
-        Log.i(TAG, "22222222 " );
         mWakeLock.acquire();
-        Log.i(TAG, "333333333 " );
         mWakeLock.release();
-        Log.i(TAG, "444444444 " );
     }
     
     public static void handleScreenOff(Context context) {
